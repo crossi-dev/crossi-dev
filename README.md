@@ -7,7 +7,11 @@
 <p align="center">
   <a href="https://somosvelora.com"><img src="https://img.shields.io/badge/Live-somosvelora.com-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live" /></a>
   <a href="mailto:gestiones@somosvelora.com"><img src="https://img.shields.io/badge/Contact-gestiones@somosvelora.com-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Built%20with-Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Built with Claude Code" />
+  <img src="https://img.shields.io/badge/Powered%20by-Google%20Cloud%20%C2%B7%20Gemini-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Powered by Google Cloud and Gemini" />
 </p>
 
 ---
@@ -19,7 +23,7 @@ Velora lets a business run from a chat. An AI Supervisor coordinates specialized
 agents over an open **A2A (Agent-to-Agent)** protocol. Live in production at
 **[somosvelora.com](https://somosvelora.com)**, on Google Cloud.
 
-> Built with Claude Code as my pair-programmer. The product itself runs on Google Cloud + Vertex AI (Gemini).
+> **Built with** Claude Code as my pair-programmer · **Powered by** Google Cloud + Vertex AI (Gemini) in production.
 
 ### ✅ What I've built
 
