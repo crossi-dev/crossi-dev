@@ -1,40 +1,36 @@
 <h1 align="center">Hi, I'm Carlos 👋</h1>
 
 <p align="center">
-  <b>Developer building <a href="https://somosvelora.com">Velora</a> — an AI-native, multi-agent commerce platform.</b>
+  <b>I build <a href="https://somosvelora.com">Velora</a> — AI-native, multi-agent commerce on an open agent-to-agent layer.</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Builds%20with-Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Builds with Anthropic" />
-  <a href="mailto:gestiones@somosvelora.com">
-    <img src="https://img.shields.io/badge/Contact-gestiones@somosvelora.com-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <a href="https://somosvelora.com"><img src="https://img.shields.io/badge/Live-somosvelora.com-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live" /></a>
+  <a href="mailto:gestiones@somosvelora.com"><img src="https://img.shields.io/badge/Contact-gestiones@somosvelora.com-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Built%20with-Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Built with Claude Code" />
 </p>
 
 ---
 
-### 🚀 Velora — commerce you run by chatting
+### 🚀 Velora
 
-Velora turns a business into something you operate from a chat. An AI **Supervisor**
-orchestrates a team of specialized agents that handle sales, payments, invoicing,
-shipping and messaging — and they talk to *other companies'* agents over an open
-**A2A (Agent-to-Agent)** protocol. Live in production on Google Cloud.
+Velora lets a business run from a chat. An AI Supervisor coordinates specialized agents
+— sales, payments, invoicing, shipping, messaging — and they talk to *other companies'*
+agents over an open **A2A (Agent-to-Agent)** protocol. Live in production at
+**[somosvelora.com](https://somosvelora.com)**, on Google Cloud.
 
-> 🤖 **Builds with Anthropic** — I engineer Velora with Claude Code as my pair-programmer.
-> The product itself runs on Google Cloud + Vertex AI; Claude is how it gets built.
+> Built with Claude Code as my pair-programmer. The product itself runs on Google Cloud + Vertex AI (Gemini).
 
-**Highlights**
-- 🧠 **Multi-agent system** — a Supervisor (owner) + Companion (employee) + specialized
-  sub-agents: Sales, Payments, Logistics, Fiscal, Messaging, Team.
-- 🔌 **MCP server** — 45 tools across 13 packs, engine-agnostic: any AI client (Claude,
-  Codex, Gemini) drives the same toolkit → [tools.somosvelora.com](https://tools.somosvelora.com)
-- 🤝 **A2A interoperability** — agents authenticate with Ed25519 identity keys and
-  coordinate across companies, not just inside one app.
-- 🏗️ **Solid foundations** — hexagonal architecture (ports/adapters/use-cases),
-  multi-tenant isolation, idempotent money operations, full audit trail.
-- 📲 **WhatsApp-first** — customers and owners run the whole business from chat.
+### ✅ What I've built
 
----
+- **Commerce end-to-end in chat** — product → sale → payment link → receipt → invoice → shipment.
+- **A multi-agent system** — a Supervisor (owner) and a Companion (employee), plus sub-agents for sales, payments, logistics, fiscal and messaging.
+- **An A2A agent network** — every agent carries its own Ed25519 cryptographic identity and coordinates over a shared bus.
+- **An MCP server** — exposes the platform's operations (sales, payments, fiscal, logistics) to any MCP client, with per-tenant auth. Live at [tools.somosvelora.com](https://tools.somosvelora.com).
+- **Real integrations** — MercadoPago, ARCA/AFIP e-invoicing, Andreani & PedidosYa, Meta WhatsApp Cloud API, Twilio SMS, Resend email.
+- **Production hardening** — hexagonal architecture, multi-tenant isolation, idempotent money operations, audit logging on critical writes.
+- **An async WhatsApp pipeline** — inbound messages enqueue to Cloud Tasks and ack immediately; a Customer Agent then handles the work.
+- **An Android app** — built with Capacitor, with an offline queue that replays mutations idempotently after reconnect.
 
 ### 🛠️ Tech
 
@@ -48,18 +44,4 @@ shipping and messaging — and they talk to *other companies'* agents over an op
 ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat&logo=capacitor&logoColor=white)
 
----
-
-### ✅ What I've built in Velora
-
-- **End-to-end commerce in chat** — product → sale → payment link → receipt → invoice → shipment, all from a conversation.
-- **A2A agent network (v0.3.0)** — each agent has its own cryptographic identity (Ed25519) and coordinates over a shared bus.
-- **MCP toolkit (45 tools)** — exposed to any AI engine over HTTP, with per-tenant auth.
-- **Real integrations** — MercadoPago (payments), ARCA/AFIP (electronic invoicing), Andreani & PedidosYa (logistics), Meta WhatsApp Cloud API, Twilio SMS, Resend email.
-- **Owner / employee roles** — two distinct AI assistants (Supervisor & Companion) with role-based access control.
-- **Async WhatsApp pipeline** — inbound messages on Cloud Tasks feeding a dedicated Customer Agent, sub-second webhook acks.
-- **Mobile app** — Android via Capacitor, with an offline queue that replays mutations idempotently after reconnect.
-
----
-
-<p align="center"><sub>Argentina 🇦🇷 · building in public</sub></p>
+<p align="center"><sub>Argentina 🇦🇷</sub></p>
