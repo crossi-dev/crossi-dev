@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Charles 👋</h1>
 
 <p align="center">
-  <b>I run <a href="https://choreless.dev">Choreless</a> — software built and shipped fast, or your money back.</b>
+  <b>Senior Software Engineer at <a href="https://choreless.dev">Choreless</a> — software built and shipped fast, or your money back.</b>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 ### 🛠️ What I do
 
-I build and ship software for teams that need it done — **MCP tools, AI agents, integrations**, and the unglamorous bug-fixes that keep real products moving. Fast, scoped, and verified. I also send fixes upstream to the open-source projects I use.
+At Choreless I build and ship software for teams that need it done — **MCP tools, AI agents, integrations**, and the unglamorous bug-fixes that keep real products moving. Fast, scoped, and verified. I also send fixes upstream to the open-source projects I use.
 
 If something on your stack is stuck, broken, or just sitting in the backlog — that's the work.
 
