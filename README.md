@@ -1,19 +1,19 @@
 <h1 align="center">Hi, I'm Charles 👋</h1>
 
 <p align="center">
-  <b>Senior Software Engineer at <a href="https://choreless.dev">Choreless</a> — software built and shipped fast, or your money back.</b>
+  <b>Junior developer who ships real products with Claude Code — Velora is my proof of work. Seeking my first role.</b>
 </p>
 
 <p align="center">
-  <a href="https://choreless.dev"><img src="https://img.shields.io/badge/Choreless-choreless.dev-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Choreless" /></a>
-  <a href="mailto:charles@choreless.dev"><img src="https://img.shields.io/badge/Contact-charles@choreless.dev-2563eb?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
+  <a href="https://cv.somosvelora.com"><img src="https://img.shields.io/badge/Portfolio-cv.somosvelora.com-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:gestiones@somosvelora.com"><img src="https://img.shields.io/badge/Contact-gestiones@somosvelora.com-2563eb?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
 </p>
 
 ---
 
 ### 🛠️ What I do
 
-At [Choreless](https://choreless.dev) I build and ship software for teams that need it done — **MCP tools, AI agents, integrations**, and the unglamorous bug-fixes that keep real products moving. Fast, scoped, and verified.
+I build and ship software with Claude Code — **MCP tools, AI agents, integrations**, and the unglamorous bug-fixes that keep real products moving. Fast, scoped, and verified.
 
 The way I work is the way I prove it: I send real fixes upstream to the open-source projects I use. Runtime-verified, minimal-diff, tied to a real issue. The list below is public and checkable.
 
@@ -47,7 +47,7 @@ Real PRs to third-party projects — every link is live and verifiable.
 
 ### 🚀 Featured project — Velora
 
-The proof I can ship the hard stuff. **[Velora](https://somosvelora.com)** is an AI-native, multi-agent commerce platform running in production on Google Cloud — a Supervisor that coordinates specialized agents (sales, payments, invoicing, shipping) which talk to *other companies'* agents over an open **A2A (Agent-to-Agent)** protocol.
+The proof I can ship the hard stuff. **[Velora](https://cv.somosvelora.com)** is an AI-native, multi-agent commerce platform running in production on Google Cloud — a Supervisor that coordinates specialized agents (sales, payments, invoicing, shipping) which talk to *other companies'* agents over an open **A2A (Agent-to-Agent)** protocol.
 
 - **Commerce end-to-end in chat** — product → sale → payment link → receipt → invoice → shipment
 - **A multi-agent system** — each agent carries its own Ed25519 cryptographic identity over a shared A2A bus
@@ -61,4 +61,4 @@ Public companions: **[velora-mcp](https://github.com/crossi-dev/velora-mcp)** (t
 
 ---
 
-<p align="center"><i>Need something shipped? <a href="mailto:charles@choreless.dev">charles@choreless.dev</a> · <a href="https://choreless.dev">choreless.dev</a></i></p>
+<p align="center"><i>Need something shipped? <a href="mailto:gestiones@somosvelora.com">gestiones@somosvelora.com</a> · <a href="https://cv.somosvelora.com">cv.somosvelora.com</a></i></p>
