@@ -1,11 +1,12 @@
 <h1 align="center">Hi, I'm Charles 👋</h1>
 
 <p align="center">
-  <b>Junior developer who ships real products with Claude Code — Velora is my proof of work. Seeking my first role.</b>
+  <b>I ship real products with Claude Code — MCP servers and AI agents. Velora, a 61-tool production MCP server, is my proof of work. Open to my first role (part-time OK).</b>
 </p>
 
 <p align="center">
   <a href="https://cv.somosvelora.com"><img src="https://img.shields.io/badge/Portfolio-cv.somosvelora.com-22c55e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://somosvelora.com/developers"><img src="https://img.shields.io/badge/Live_MCP-somosvelora.com%2Fdevelopers-6366f1?style=for-the-badge&logo=anthropic&logoColor=white" alt="Live MCP" /></a>
   <a href="mailto:gestiones@somosvelora.com"><img src="https://img.shields.io/badge/Contact-gestiones@somosvelora.com-2563eb?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -52,7 +53,7 @@ The proof I can ship the hard stuff. **[Velora](https://cv.somosvelora.com)** is
 - **Commerce end-to-end in chat** — product → sale → payment link → receipt → invoice → shipment
 - **A multi-agent system** — each agent carries its own Ed25519 cryptographic identity over a shared A2A bus
 - **An MCP server** — exposes operations (sales, payments, fiscal, logistics) to any MCP client, with per-tenant auth
-- **Real integrations** — MercadoPago, ARCA/AFIP e-invoicing, Andreani, Meta WhatsApp Cloud API
+- **Real integrations** — MercadoPago payments, ARCA/AFIP e-invoicing (real CAE), and Meta WhatsApp Cloud API, live in production; Andreani logistics integrated in sandbox
 - **Production hardening** — hexagonal architecture, multi-tenant isolation, idempotent money operations, audit logging
 
 Public companions: **[velora-mcp](https://github.com/crossi-dev/velora-mcp)** (the MCP server) · **[velora-track3](https://github.com/crossi-dev/velora-track3)** (A2A interoperability layer, Google AI Agents Challenge) · **[latam-tools](https://github.com/crossi-dev/latam-tools)** (Argentina CUIT validation + AFIP QR, pure MCP tools).
