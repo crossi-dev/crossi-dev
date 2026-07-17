@@ -60,6 +60,18 @@ Public companions: **[velora-mcp](https://github.com/crossi-dev/velora-mcp)** (t
 
 > **Built with** Claude Code · **Powered by** Google Cloud + Vertex AI (Gemini).
 
+### 🔎 Also shipped — Veripóliza
+
+**[Veripóliza](https://poliza-demo-901300139957.us-central1.run.app)** is an insurance certificate-of-coverage PDF verification engine. It sits between two APIs — one hands over certificate PDFs, one receives the extracted data — and replaces the manual step of retyping certificate fields.
+
+- **Reads certificate PDFs → structured, validated JSON** — policy number, coverage dates, and each insured person's name and DNI
+- **A Gemini model-consensus pipeline** on Google Cloud Run (scale-to-zero)
+- **Proven on real data** — extracts 5/5 insured correctly from a real Sancor Seguros accident-coverage certificate, matching ground-truth policy number, coverage dates, and every name + DNI
+
+Public repo: **[veripoliza](https://github.com/crossi-dev/veripoliza)** · **[Live demo](https://poliza-demo-901300139957.us-central1.run.app)**.
+
+> **Built with** Claude Code · **Powered by** Google Cloud (Gemini).
+
 ---
 
 <p align="center"><i>Need something shipped? <a href="mailto:gestiones@somosvelora.com">gestiones@somosvelora.com</a> · <a href="https://cv.somosvelora.com">cv.somosvelora.com</a></i></p>
