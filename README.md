@@ -24,6 +24,8 @@ If something on your stack is stuck, broken, or just sitting in the backlog — 
 
 Real PRs to third-party projects — every link is live and verifiable.
 
+> I scope and drive these fixes with Claude Code, then verify each at runtime — the method is the point.
+
 **Merged ✅**
 
 - [`0xMassi/webclaw#59`](https://github.com/0xMassi/webclaw/pull/59) — accept numeric MCP params sent as strings *(Rust · web-extraction MCP server)*
