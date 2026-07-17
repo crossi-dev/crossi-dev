@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Charles 👋</h1>
 
 <p align="center">
-  <b>I ship real products with Claude Code — MCP servers and AI agents. Velora, a 61-tool production MCP server, is my proof of work. Open to my first role (part-time OK).</b>
+  <b>Early-career dev running a live production MCP platform — listed on Glama, with fixes merged into Mastra (26k★). Velora, a 61-tool production MCP server, is my proof of work. Open to my first role (part-time OK).</b>
 </p>
 
 <p align="center">
@@ -28,6 +28,8 @@ Real PRs to third-party projects — every link is live and verifiable.
 
 **Merged ✅**
 
+- [`mastra-ai/mastra#19604`](https://github.com/mastra-ai/mastra/pull/19604) — bound the stderr buffer in `mastra start` to prevent a `RangeError` *(TypeScript · 26k★ AI-agent framework)*
+- [`mastra-ai/mastra#19610`](https://github.com/mastra-ai/mastra/pull/19610) — add a depth limit to `safeStringify` to prevent a `RangeError` *(TypeScript · 26k★ AI-agent framework)*
 - [`0xMassi/webclaw#59`](https://github.com/0xMassi/webclaw/pull/59) — accept numeric MCP params sent as strings *(Rust · web-extraction MCP server)*
 - [`dgtlmoon/changedetection.io#4220`](https://github.com/dgtlmoon/changedetection.io/pull/4220) — extract `<title>` from pages with large `<head>` sections *(Python · 25k★ change-monitoring tool)*
 
