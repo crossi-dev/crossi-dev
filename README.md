@@ -80,7 +80,9 @@ Public repo: **[veripoliza](https://github.com/crossi-dev/veripoliza)** · **[Li
 - **Security engineering:** fail-closed allow-list, a write-confirmation gate on every send/create, an untrusted-data envelope around all tool results, a SHA-256-pinned binary, and secrets in GCP Secret Manager
 - **Hosting:** Google Cloud Run with encrypted token persistence
 
-> Status: built, private repository — an architecture and security piece, not a public demo (available on request).
+Public repo: **[nanoclaw](https://github.com/crossi-dev/nanoclaw)**.
+
+> Status: built, code public — an architecture and security piece; not yet deployed to a live Teams tenant.
 
 > **Built with** Claude Code · **Powered by** Claude (Anthropic) + Google Cloud.
 
