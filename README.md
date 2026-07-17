@@ -72,6 +72,18 @@ Public repo: **[veripoliza](https://github.com/crossi-dev/veripoliza)** · **[Li
 
 > **Built with** Claude Code · **Powered by** Google Cloud (Gemini).
 
+### 🔐 Also built — nanoclaw (security-focused Teams agent for Outlook)
+
+**nanoclaw** is a Microsoft Teams agent that gives employees a natural-language interface over their Outlook inbox and calendar. Mention `@nanoclaw` in a chat and it reads mail, reads the calendar, drafts emails, and creates events — always asking for explicit confirmation before any write.
+
+- **Brain:** Claude via a tool-use loop; official Microsoft 365 Agents / Teams SDK; the `olk` Outlook CLI for mail and calendar access
+- **Security engineering:** fail-closed allow-list, a write-confirmation gate on every send/create, an untrusted-data envelope around all tool results, a SHA-256-pinned binary, and secrets in GCP Secret Manager
+- **Hosting:** Google Cloud Run with encrypted token persistence
+
+> Status: built, private repository — an architecture and security piece, not a public demo (available on request).
+
+> **Built with** Claude Code · **Powered by** Claude (Anthropic) + Google Cloud.
+
 ---
 
 <p align="center"><i>Need something shipped? <a href="mailto:gestiones@somosvelora.com">gestiones@somosvelora.com</a> · <a href="https://cv.somosvelora.com">cv.somosvelora.com</a></i></p>
