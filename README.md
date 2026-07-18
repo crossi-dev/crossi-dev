@@ -39,6 +39,10 @@ Real PRs to third-party projects — every link is live and verifiable.
 - [`encoredev/encore#2484`](https://github.com/encoredev/encore/pull/2484) — update deprecated GitHub Actions to current versions *(Go · backend framework)*
 - [`RBND-studio/flows-sdk#704`](https://github.com/RBND-studio/flows-sdk/pull/704) — keep `PathnameProvider` mounted so changing `userId` doesn't break hook count *(React)*
 - [`next-safe-action/next-safe-action#459`](https://github.com/next-safe-action/next-safe-action/pull/459) — accept safe actions directly in the `form` action prop *(TypeScript types)*
+
+<details>
+<summary>8 more open PRs</summary>
+
 - [`lukevella/rallly#2436`](https://github.com/lukevella/rallly/pull/2436) — allow changing timezone on polls with no votes yet *(Next.js)*
 - [`formkit/tempo#84`](https://github.com/formkit/tempo/pull/84) — handle locales with an existing Unicode extension (e.g. `ar-u-nu-arab`) *(date/i18n lib)*
 - [`relaticle/custom-fields#167`](https://github.com/relaticle/custom-fields/pull/167) — resolve dependent fields to fix a strict-mode crash *(Laravel/Filament)*
@@ -48,7 +52,9 @@ Real PRs to third-party projects — every link is live and verifiable.
 - [`tconbeer/textual-fastdatatable#153`](https://github.com/tconbeer/textual-fastdatatable/pull/153) — forward `render_markup` in the tooltip path to fix a JSON crash *(Python)*
 - [`terminalwire/ruby#25`](https://github.com/terminalwire/ruby/pull/25) — unknown command should exit 1 and write to stderr *(Ruby/Rails)*
 
-> Full list: [PRs authored by `crossi-dev`](https://github.com/pulls?q=is%3Apr+author%3Acrossi-dev+archived%3Afalse).
+</details>
+
+> Full list: [PRs authored by `crossi-dev`](https://github.com/search?q=is%3Apr+author%3Acrossi-dev+archived%3Afalse&type=pullrequests).
 
 ### 🚀 Featured project — Velora
 
